@@ -2,4 +2,4 @@ node_modules
 dist
 .DS_Store
 coverage
-__test__
+**/__test__/
