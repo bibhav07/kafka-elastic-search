@@ -31,7 +31,7 @@ describe("catalogService", () => {
     
     
     describe("createProduct", () => {
-        test("should create product", async() => {
+        test("should create a new product", async() => {
             const service = new CatalogService(repository);
 
             const reqBody = mockProduct({
