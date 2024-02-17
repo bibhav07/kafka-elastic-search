@@ -110,8 +110,6 @@ describe("catalogService", () => {
           const service = new CatalogService(repository);
           const randomLimit = faker.number.int({ min: 10, max: 50 });
           const products = ProductFactory.buildList(randomLimit);
-          console.log('hola');
-          console.log(products);
           
           
           jest
